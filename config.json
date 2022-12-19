@@ -1,0 +1,5 @@
+{
+    "dsn": "jdbc:mysql://127.0.0.1:3306/crudphp?useSSL=false&serverTimezone=UTC",
+    "user": "root",
+    "password": "r00t@Abc"
+}
