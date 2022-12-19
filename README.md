@@ -10,6 +10,8 @@
 Uso ilustrando uma consulta a uma tabela "produtos":
 
 //Para abrir a conexão com o banco de idade.
+
+
 Connection con = Conexao.conectar();
 
 Para realizar as consultas:
