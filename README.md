@@ -9,7 +9,7 @@
 
 Uso ilustrando uma consulta a uma tabela "produtos":
 
-//Para abrir a conexão com o banco de idade.
+//Para abrir a conexão com o banco de dados.
 
 
 Connection con = Conexao.conectar();
