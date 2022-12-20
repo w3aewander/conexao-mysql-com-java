@@ -15,6 +15,7 @@ Uso ilustrando uma consulta a uma tabela "produtos":
 Connection con = Conexao.conectar();
 
 Para realizar as consultas:
+
         var con = Conexao.conectar();
 
         var sql = "select * from produtos";
@@ -26,6 +27,9 @@ Para realizar as consultas:
         ResultSet rs = pstm.executeQuery();
         
         while (rs.next()) {
+            
+            //exibindo o resultado da consulta.
+            
             System.out.println(rs.getString("descricao") );
         }
 
@@ -34,6 +38,7 @@ Para realizar as consultas:
         
         Conexao.desconectar(con);
 
-//Para fechar a conexão
+// Se quiser fechar a conexão com o banco..
+
 Conexao.desconectar(con);
 
